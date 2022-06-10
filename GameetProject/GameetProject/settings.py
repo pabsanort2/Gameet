@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'GameetApp',
 ]
 
 MIDDLEWARE = [
@@ -77,8 +78,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'Gameet',
-        'USER': 'admin',
-        'PASSWORD': 'Manolo999',
+        'USER': 'root',
+        'PASSWORD': 'root',
         'HOST': 'localhost',
         'PORT': '',
     }
