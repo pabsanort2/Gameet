@@ -1,5 +1,5 @@
 from django.contrib import admin
-from GameetApp.models import Usuario
+from GameetApp.models import GameetUser
 
 # Register your models here.
-admin.site.register(Usuario)
+admin.site.register(GameetUser)

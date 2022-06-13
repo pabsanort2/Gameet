@@ -5,8 +5,7 @@ from django.contrib.auth.models import User
 
 
 # Create your models here.
-
-class Usuario(models.Model):
+class GameetUser(models.Model):
     user =  models.OneToOneField(User, on_delete=models.CASCADE)
-    tlf = PhoneNumberField(unique = True)
-    imagen = models.ImageField(upload_to='imagenesPerfil')
+    telephone = PhoneNumberField(unique = True)
+    picture = models.ImageField(upload_to='profilePictures')
